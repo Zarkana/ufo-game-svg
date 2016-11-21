@@ -11,9 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35648741dd5b14baa82bec08abfe7457, type: 3}
   m_Name: pickup
   m_EditorClassIdentifier: 
-  _lastTimeModified: 0
-  _documentAsset: {fileID: 0}
-  _sharedMesh: {fileID: 0}
+  _lastTimeModified: 636152958263558722
+  _documentAsset: {fileID: 114000011012849882}
+  _sharedMesh: {fileID: 43000013045569444}
   _antialiasing: 0
   _generateCollider: 0
   _keepSVGFile: 0
@@ -34,12 +34,156 @@ MonoBehaviour:
   _border: {x: 0, y: 0, z: 0, w: 0}
   _sliceMesh: 0
   _sharedGradients: []
-  _sharedShaders: []
+  _sharedShaders:
+  - SVG Importer/SolidColor/SolidColorAlphaBlended
   _canvasRectangle:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 0
-    height: 0
+    width: 0.029000001
+    height: 0.024999999
   _useLayers: 0
   _layers: []
+--- !u!43 &43000013045569444
+Mesh:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: pickup
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 51
+    topology: 0
+    firstVertex: 0
+    vertexCount: 19
+    localAABB:
+      m_Center: {x: -4.656613e-10, y: 0.0000000013969839, z: 0}
+      m_Extent: {x: 0.01496, y: 0.01275, z: 0}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexBuffer: 00000100020000000300010004000300000003000400050006000700080006000900070006000a0009000b000a0006000b000c000a000c000b000d0007000e0008000f000e00070010000e000f00100011000e001000120011000c001200100012000c000d00
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 5
+    m_VertexCount: 19
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 2
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 304
+    _typelessdata: f4fdd4bb7d6a3cbc00000000f6ff0fff29055d3c307300ba00000000f6ff0fff12aad43b7d6a3cbc00000000f6ff0fff12aad43b816a3c3c00000000f6ff0fff1b2f5dbc307300ba00000000f6ff0ffff4fdd4bb816a3c3c00000000f6ff0fff199aebbb5fe550bc00000000231f20ffee0dbe3b9bef27bc00000000231f20ff3646eb3b5fe550bc00000000231f20ffd261bebb9bef27bc00000000231f20ff6c4345bce02bf1b900000000231f20ffca1a75bc805008ba00000000231f20ff0ababdbb9119283c00000000231f20ffc095ecbb71bb503c00000000231f20ffc91a753c805008ba00000000231f20ff7b19453ce02bf1b900000000231f20ff2666bd3b9119283c00000000231f20ffc20df83bebbc463c00000000231f20ffda41ec3b62e5503c00000000231f20ff
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: -4.656613e-10, y: 0.0000000013969839, z: 0}
+    m_Extent: {x: 0.01496, y: 0.01275, z: 0}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshOptimized: 0
+--- !u!114 &114000011012849882
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 363e9872ad27a4ca59c07d233fdf0023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _errors: 
+  _svgFile: 
+  _title: 
+  _description: 

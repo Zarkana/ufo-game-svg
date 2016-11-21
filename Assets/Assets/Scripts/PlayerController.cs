@@ -6,10 +6,12 @@ public class PlayerController : MonoBehaviour {
   public float speed;
 
   private Rigidbody2D rb2d;
+  private GameObject canvas;
 
   void Start()
   {
     rb2d = GetComponent<Rigidbody2D>();
+    canvas = GameObject.FindWithTag("MainUI");    
   }
 
   void FixedUpdate()
@@ -18,5 +20,14 @@ public class PlayerController : MonoBehaviour {
     float moveVertical = Input.GetAxis("Vertical");
     Vector2 movement = new Vector2(moveHorizontal, moveVertical);
     rb2d.AddForce(movement * speed);
+  }
+
+  void OnTriggerEnter2D(Collider2D other)
+  {
+    if(other.gameObject.CompareTag("PickUp"))
+    {
+      other.gameObject.SetActive(false);
+      canvas.GetComponent<UIController>().addCount(1);
+    }
   }
 }
