@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2821e0ea36a08f0499415fb378ec130b
+timeCreated: 1479680204
+licenseType: Free
+NativeFormatImporter:
+  userData: <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 68.5 68.5"><defs><style>.cls-1{fill:#c2b59b;}.cls-2{fill:#605d57;}</style></defs><title>background</title><rect
+    class="cls-1" x="8.2" y="8.2" width="52.2" height="52.16"/><rect class="cls-2"
+    y="8.2" width="8.2" height="52.16"/><rect class="cls-2" x="60.4" y="8.2" width="8.2"
+    height="52.16"/><rect class="cls-2" x="47.6" y="-9.3" width="8.2" height="52.16"
+    transform="translate(51 -47.6) rotate(90)"/><rect class="cls-2" x="47.6" y="51"
+    width="8.2" height="52.16" transform="translate(111.4 12.8) rotate(90)"/></svg>
+  assetBundleName: 
+  assetBundleVariant: 
